@@ -1,0 +1,76 @@
+<!--Author: Abass-Tijani Modupe Aminat
+    Student ID: W0492257
+    Course: WEBD1000
+    Date: 2023-11-28
+    Project: Exercise: HTML and CSS Skills Development
+    Version: HTML and CSS
+-->
+
+<!DOCTYPE HTML>
+<html  lang="en">
+<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="webd1000_W0492257_css_skills_development.css">
+        <title>HTML and CSS Skills Development</title>
+        <!--Apply internal styles to change the background color and add padding-->
+        <style>
+            .myDiv {
+                background-color: lightgrey;
+                padding:16px 16px 16px 16px;
+            }
+        </style>
+    </head>
+
+    <!--Create an HTML file with a <div> element.-->
+    <div></div>    
+
+    <!--Add some text content to the <div>.-->
+    <div>This is a text content inside a div tag</div>
+
+    <!--Apply inline styles to change the text color and font size.-->
+    <div>This is a <span style="color: cadetblue; font-weight: bolder; font-size:large;">text content </span> inside a div tag</div>    
+    
+    <!--Apply external styles to change the border and margin.-->
+    <div id="myDiv">
+        <p>This is a text content inside a div tag with external styles</span></p>
+    </div>
+
+    <!-- Selectors and Descendants: Add a nested <span> element inside the existing <div>-->
+    <div id="myDiv">
+        <p>Nested span content inside a div tag with <span style="background-color: darkgoldenrod; color: black;"> external styles</span></p>
+    </div>
+
+    <!-- Apply styles to the <span> element using descendant selectors. Change the text color and font style for the <span>-->
+    <div >
+        <p>The rainbow is colorful.</p>
+        <p>The brown fox jumped over the fence.</p>
+        <p>I see the moon.</p>
+    </div>
+
+    <!--Box Model: Create a new <div> element below the existing one.-->
+    <div class="box"></div>
+
+    <!--Flexbox:Create a container <div> and three child <div> elements inside it.-->
+    <div class="flex-container">
+        <div class="child1">1</div>
+        <div class="child2">2</div>
+        <div class="child3">3</div>
+    </div>
+    
+    <!--Positioning: Create a container <div> with two child <div> elements inside and apply absolute positioning to one of the child elements.-->
+    <div class="container">
+        <div id="absolute">An absolute element</div>
+        <div id="relative">A relative element</div>  
+    </div>    
+  
+    <!--Transitions: Add a button element to your HTML file. -->
+    <div class="space">
+        <button class="button btn1">Submit</button>
+    </div>
+    
+</body>
+</html>
+
+

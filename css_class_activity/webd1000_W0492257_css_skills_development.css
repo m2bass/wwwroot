@@ -1,0 +1,116 @@
+/* Author: Abass-Tijani Modupe Aminat
+      Student ID: W0492257
+      Course: WEBD1000
+      Date: 2023-11-28
+      Project: Exercise / Assignment / Project
+      Version: HTML and CSS
+*/
+
+/* Apply external styles to change the border and margin.*/
+#myDiv {
+    margin:5px 5px 5px 5px;
+    border: 5px;
+    border-style: solid;
+    font-family: Impa;
+    color: red;
+    width: 700px;
+}
+
+/* Apply styles to the <span> element using descendant selectors.*/
+div p {
+    font-style: italic;
+    font-size: x-large;
+    color: blue;
+
+}
+
+/* Box Model: Apply styles to set a fixed width, height, margin, padding, and a border */
+.box {
+    width:200px;
+    height: 200px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    border: 15px;
+    border-color: black;
+    border-style: dashed;
+    background-color: chocolate;
+}
+/*Apply flexbox styles to the container to arrange the child elements horizontally.*/
+.flex-container {
+    display: flex;
+    background-color: grey;
+}
+
+/* Give each child element a different background color.*/
+.flex-container .child1 {
+    color: black;
+    padding: 20px;
+    width: 100px;
+    background-color: burlywood;
+    text-align:center;
+    line-height: 75px;
+    margin: 10px;
+}
+.flex-container .child2 {
+    color: black;
+    padding: 20px;
+    width: 100px;
+    background-color: purple;
+    text-align:center;
+    line-height: 75px;
+    margin: 10px;
+}
+
+.flex-container .child3 {
+    color: black;
+    padding: 20px;
+    width: 100px;
+    background-color: yellow;
+    text-align:center;
+    line-height: 75px;
+    margin: 10px;
+}
+
+/* Positioning: relative and absolute*/
+.container{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border: 2px  solid purple;
+}
+
+#absolute {
+    position: absolute;
+    top: 250px;
+    right: 0;
+    width: 200;
+    height: 100;
+    border: 2px solid brown
+}
+
+#relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+}
+
+/* creating a space between previous div */
+.space{
+    margin-top: 10px;
+}
+
+/* Apply styles to the button to change its background color and font color on hover using CSS transitions.*/
+.button {
+    border: none;
+    color: yellow;
+    background-color: grey;
+    padding: 10px 20px;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: aqua;
+    color: black ;
+}
