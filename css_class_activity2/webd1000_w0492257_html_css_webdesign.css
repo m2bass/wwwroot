@@ -1,0 +1,93 @@
+/*Author: Abass-Tijani Modupe Aminat
+    Student ID: W0492257
+    Course: WEBD1000
+    Date: 2023-11-28
+    Project: Exercise: HTML and CSS Skills Development
+    Version: HTML and CSS
+*/
+#header {
+    background-color: #cc3380;
+    color: #ffffff;
+    padding: 15px 15px 15px 30px;
+    font-size: x-large;
+  }
+
+/* Container for flexbox */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column{
+  flex:25%;
+  padding: 20px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width:992px){
+  .column {
+    flex: 50%;
+  }  
+}
+
+/* On  screens that are 600px wide or less, make the columns  stack onn top  of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  row {
+    flex-direction: column;
+  }
+}
+
+h1 {
+  color: purple;
+    padding-left: 20px;
+}
+
+p {
+  padding: 0px 20px 0px 20px;
+}
+
+.navbar {
+    display: flex;
+    background-color: #333333;
+    align-items:center
+  }
+/* Navigation link colors */
+  .navbar a{
+    color: #e7e7e7;
+  }
+
+  .navbar ul {
+    /* Reset the margin and padding of the list*/
+    margin: 0;
+    padding:0;
+
+    /* Remove bullet point */
+    list-style-type:none;
+
+    /*Dislay the list flex and align items center*/
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar ul li a {
+    color: #e7e7e7;
+    padding: 24px;
+    display: block;
+  }
+
+  /* When a user hovers, focuses or if the link is active change the background */
+  .navbar ul a:hover,
+  .navbar ul a:focus {
+    background-color: #272727;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+#footer {
+  background-color: #cc3380;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  color: #ffffff;
+}
